@@ -1,0 +1,8 @@
+{
+  "extends": "../typescript-config/react-library.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src", "../../apps/web/components/Header.tsx", "../../apps/web/components/Footer.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
