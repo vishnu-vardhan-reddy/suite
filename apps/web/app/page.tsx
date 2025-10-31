@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FileJson, Lock, Link as LinkIcon, Hash, Search, Key } from 'lucide-react';
+import { FileJson, Lock, Link as LinkIcon, Hash, Search, Key, Calendar } from 'lucide-react';
 
 const tools = [
   {
@@ -43,6 +43,13 @@ const tools = [
     icon: Search,
     href: '/tools/regex-tester',
     color: 'from-indigo-500 to-purple-500'
+  },
+  {
+    name: 'Date Time Converter',
+    description: 'Convert dates, times, and timezones with ease.',
+    icon: Calendar,
+    href: '/tools/date-time-converter',
+    color: 'from-green-500 to-lime-500'
   }
 ];
 
